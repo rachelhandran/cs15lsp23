@@ -1,6 +1,4 @@
-# Hello World!
+# Rachel Handran
 
 ## CSE 15L Lab Reports
-
-- [ ] Box 1
-- [ ] Box 2
+- [Week 1 Lab Report](week1lab.md)
