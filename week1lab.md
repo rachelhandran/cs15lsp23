@@ -9,7 +9,7 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 - VS Code essentially acts as a text editor with many advanced features and extensions that assist while writing code.
 - Install and download VS Code here for your system: https://code.visualstudio.com/
 
-![Image](VSCodeDownloadPage.png)
+![Image](docs/VSCodeDownloadPage.png)
 ![Image](VSCodeHome.png)
 - Once downloaded, open any existing folder as a workspace. Alternatively, you can create new directories and files directly in *VS Code*.
 - You can open a new file, program, or script: `<filename>.extension`, for example, `hello.java` or `hello.py`. You can begin writing right away! 
