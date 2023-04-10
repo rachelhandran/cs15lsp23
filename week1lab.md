@@ -25,7 +25,7 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 - We will be using the `shell` *scripting language*. Some shell examples:
 	- `bash`: "bourne-again shell"
 	- `zsh`: zshell
-![Image](img/SCodeTerminal.png)
+![Image](img/VSCodeTerminal.png)
 
 
 ### 2. Connect to the Remote Server with ssh 
