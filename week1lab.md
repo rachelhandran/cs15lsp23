@@ -9,8 +9,8 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 - VS Code essentially acts as a text editor with many advanced features and extensions that assist while writing code.
 - Install and download VS Code here for your system: https://code.visualstudio.com/
 
-![Image](docs/VSCodeDownloadPage.png)
-![Image](VSCodeHome.png)
+![Image](img/VSCodeDownloadPage.png)
+![Image](img/VSCodeHome.png)
 - Once downloaded, open any existing folder as a workspace. Alternatively, you can create new directories and files directly in *VS Code*.
 - You can open a new file, program, or script: `<filename>.extension`, for example, `hello.java` or `hello.py`. You can begin writing right away! 
 	- VS Code has built-in support for countless programming languages, and you can install them by clicking on the grid icon in the left taskbar.
@@ -20,12 +20,12 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 - For our next step, we'll need access to the *shell*, *terminal* or the *Command Line Interface (CLI)*
 - In Operating Systems, the *shell* is the UI exposed to the user, that allows them to interact with the computer's filesystem, programs, and more.
 - At the top task bar, open the *Terminal* tab, then select *New Terminal*.
-![image](VSCodeTerminalOpen.png)
+![image](img/VSCodeTerminalOpen.png)
 - A terminal will open at the bottom. Depending on your machine, it may be *Powershell/Windows*, *Mac*, *Linux*. 
 - We will be using the `shell` *scripting language*. Some shell examples:
 	- `bash`: "bourne-again shell"
 	- `zsh`: zshell
-![Image](VSCodeTerminal.png)
+![Image](img/SCodeTerminal.png)
 
 
 ### 2. Connect to the Remote Server with ssh 
@@ -68,7 +68,7 @@ $ man ls
 - *Tip: If you're ever stuck in a screen, these usually work to get you back to the terminal:*
 	- `Esc`, `q`, `Ctrl+C`, `:wq` (this one we'll learn about later, to get out of `vim`, a text editor)
 - My examples:
-![Image](ubuntuSSH.png)
+![Image](img/ubuntuSSH.png)
 - *Tip: I use aliases to help streamline my terminal experience. Essentially, you can create a short cmmand or word that can alias for a long command. Try running* `alias` *to see the built-in ones. My most commonly used one is* `ll` *which is short for* `ls -l`.
 
 ### Conclusion
