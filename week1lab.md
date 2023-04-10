@@ -41,7 +41,8 @@ ssh <hostname@host>
 ssh <your-account-name>@ieng6.ucsd.edu
 ```
 - Enter your password that you just set, and you should be logged in!
-- *Note: I was not able to log into my personal ieng6 account yet. I have told the TAs and they are working to figure it out with ETS. Here is an example of using ssh to log in to a mesh network:*
+- *Note: I was not able to log into my personal ieng6 account yet. I have told the TAs and they are working to figure it out with ETS. Here is an example of using ssh to log in to a mesh network*:
+
 ```shell
 rhandran@DESKTOP-2J21E5Q$ ssh mesh@67.58.52.199
 Activate the web console with: systemctl enable --now cockpit.socket
