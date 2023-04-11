@@ -9,8 +9,8 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 - VS Code essentially acts as a text editor with many advanced features and extensions that assist while writing code.
 - Install and download VS Code here for your system: https://code.visualstudio.com/
 
-![Image](img/VSCodeDownloadPage.png)
-![Image](img/VSCodeHome.png)
+![VS Code Download PAge](img/VSCodeDownloadPage.png)
+![VS Code Home View](img/VSCodeHome.png)
 - Once downloaded, open any existing folder as a workspace. Alternatively, you can create new directories and files directly in *VS Code*.
 - You can open a new file, program, or script: `<filename>.extension`, for example, `hello.java` or `hello.py`. You can begin writing right away! 
 	- VS Code has built-in support for countless programming languages, and you can install them by clicking on the grid icon in the left taskbar.
@@ -20,12 +20,15 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 - For our next step, we'll need access to the *shell*, *terminal* or the *Command Line Interface (CLI)*
 - In Operating Systems, the *shell* is the UI exposed to the user, that allows them to interact with the computer's filesystem, programs, and more.
 - At the top task bar, open the *Terminal* tab, then select *New Terminal*.
-![image](img/VSCodeTerminalOpen.png)
+![VS Code Terminal Guide](img/VSCodeTerminalOpen.png)
 - A terminal will open at the bottom. Depending on your machine, it may be *Powershell/Windows*, *Mac*, *Linux*. 
 - We will be using the `shell` *scripting language*. Some shell examples:
 	- `bash`: "bourne-again shell"
 	- `zsh`: zshell
-![Image](img/SCodeTerminal.png)
+![VS Code Terminal](img/VSCodeTerminal.png)
+- You can also access your terminal directly on your computer. I use the distribution Ubuntu 20.02 for WSL.
+	- Here's my customized message of the day and interface (yours will look different!):
+	![Ubuntu Message of the Day](img/ubuntuMOTD.png)
 
 
 ### 2. Connect to the Remote Server with ssh 
@@ -41,7 +44,7 @@ ssh <hostname@host>
 ssh <your-account-name>@ieng6.ucsd.edu
 ```
 - Enter your password that you just set, and you should be logged in!
-- *Note: I was not able to log into my personal ieng6 account yet. I have told the TAs and they are working to figure it out with ETS. Here is an example of using ssh to log in to a mesh network*:
+- *Note (4.6.23): I was not able to log into my personal ieng6 account yet. I have told the TAs and they are working to figure it out with ETS. Here is an example of using ssh to log in to a mesh network*:
 
 ```shell
 rhandran@DESKTOP-2J21E5Q$ ssh mesh@67.58.52.199
@@ -51,6 +54,9 @@ Last login: Wed Apr  5 07:01:11 2023 from 76.176.152.103
 [mesh@mesh-entry ~]$ ls
 access  mpiinstall  osimages  sysimages  vms
 ```
+- *Note (4.11.23): I have logged into the ieng6 account using ssh directly into the machines.*
+![ssh Example](img/ubuntuSSHSuccess.png)
+
 - Now, we'll move on to using the terminal to interact with the filesystem and computer.
 
 ### 3. Use the Command Line
@@ -68,7 +74,7 @@ $ man ls
 - *Tip: If you're ever stuck in a screen, these usually work to get you back to the terminal:*
 	- `Esc`, `q`, `Ctrl+C`, `:wq` (this one we'll learn about later, to get out of `vim`, a text editor)
 - My examples:
-![Image](img/ubuntuSSH.png)
+![Ubuntu ssh and Commands](img/ubuntuSSH.png)
 - *Tip: I use aliases to help streamline my terminal experience. Essentially, you can create a short cmmand or word that can alias for a long command. Try running* `alias` *to see the built-in ones. My most commonly used one is* `ll` *which is short for* `ls -l`.
 
 ### Conclusion
