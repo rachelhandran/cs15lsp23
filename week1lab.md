@@ -83,9 +83,10 @@ $ man ls
 		- `Esc`, `q`, `Ctrl+C`, `:wq` (this one we'll learn about later, to get out of `vim`, a text editor)
 - My examples:
 ![Examples](img/ubuntuExamples.png)
-- *Tip: I use aliases to help streamline my terminal experience. Essentially, you can create a short cmmand or word that can alias for a long command. Try running* `alias` *to see the built-in ones. My most commonly used one is* `ll` *which is short for* `ls -l`.
-![Aliases in Ubuntu](ubuntuAlias.png)
 ![manual page for ls](img/manls.png)
+- *Tip: I use aliases to help streamline my terminal experience. Essentially, you can create a short command or word that can alias for a long command. Try running* `alias` *to see the built-in ones. My most commonly used one is* `ll` *which is short for* `ls -l`.
+![Aliases in Ubuntu](img/ubuntuAlias.png)
+
 ## Conclusion
 - Congratulations! This week, we've learned how to:
 	- Download and use an IDE, *VS Code*
