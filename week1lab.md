@@ -1,4 +1,4 @@
-# CSE Week 1 Lab Report
+# CSE 15L Week 1 Lab Report
 Hello! Welcome to CSE 15L. In order to assist in our experience in CSE 12 and 15L, we will learn to use tools such as the terminal, `git` and version control, and IDEs. These tools and shortcuts will help optimize your programming experience throughout your academic and professional career.
 
 I'll walk through downloading an IDE, securely connecting to a remote server with `ssh`, and using some Unix-based commands in the `shell` scripting language. For reference, I use a Windows machine running the *Windows Subsystem for Linux (WSL)* and by distribution is *Ubuntu 20.04*. 
@@ -7,7 +7,7 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 #### Install and Download VS Code
 - *Visual Studio Code* is an **Integrated Development Environment** (IDE).
 - VS Code essentially acts as a text editor with many advanced features and extensions that assist while writing code.
-- Install and download VS Code here for your system: https://code.visualstudio.com/
+- Install and download VS Code here for your system: [VS Code Download](https://code.visualstudio.com/)
 
 ![VS Code Download PAge](img/VSCodeDownloadPage.png)
 ![VS Code Home View](img/VSCodeHome.png)
@@ -38,7 +38,7 @@ I'll walk through downloading an IDE, securely connecting to a remote server wit
 ssh <hostname@host>
 ```
 - In our case, the *client* is your local personal computer, and the *server* is a machine in the CSE basement. As students in CSE15L, we are each given accounts to use for the class. 
-	- To find your specific account: https://sdacs.ucsd.edu/~icc/index.php
+	- To find your specific account: [CSE 15L Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 - Log in by `ssh`: 
 ```shell
 ssh <your-account-name>@ieng6.ucsd.edu
@@ -65,19 +65,28 @@ access  mpiinstall  osimages  sysimages  vms
 - Once you've logged into your CSE15L account through `ssh` on the `ieng6` server, try some commands!
 ```shell
 $ ls
+```
+- Lists the contents of the directory listed as a command-line arg, or current working directory if no args given
+```shell
 $ ls -l
 $ ls -a
-$ cd 
-$ man ls 
 ```
-- *Note: Press q to quit for the last command.*
-- *Tip: If you're ever stuck in a screen, these usually work to get you back to the terminal:*
-	- `Esc`, `q`, `Ctrl+C`, `:wq` (this one we'll learn about later, to get out of `vim`, a text editor)
+- Variations of ls, showing in long form:  `ls -l`, and displaying the hidden files: `ls -a`
+```shell
+$ cd
+$ man ls
+```
+- `cd` takes you to your home directory
+- `man ls` shows the manual page for the command which is passed as a command-line arg
+	- *Note: Press q to quit man pages.*
+	- *Tip: If you're ever stuck in a screen, these usually work to get you back to the terminal:*
+		- `Esc`, `q`, `Ctrl+C`, `:wq` (this one we'll learn about later, to get out of `vim`, a text editor)
 - My examples:
-![Ubuntu ssh and Commands](img/ubuntuSSH.png)
+![Examples](img/ubuntuExamples.png)
 - *Tip: I use aliases to help streamline my terminal experience. Essentially, you can create a short cmmand or word that can alias for a long command. Try running* `alias` *to see the built-in ones. My most commonly used one is* `ll` *which is short for* `ls -l`.
-
-### Conclusion
+![Aliases in Ubuntu](ubuntuAlias.png)
+![manual page for ls](img/manls.png)
+## Conclusion
 - Congratulations! This week, we've learned how to:
 	- Download and use an IDE, *VS Code*
 	- Find our CSE15L accounts and log in with `ssh`
