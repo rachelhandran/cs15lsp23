@@ -105,7 +105,7 @@ public void testReversed2() {
 ```
 **Ouput:**
 
-![Image](ArrayTestFailures.png)
+![Image](img/ArrayTestFailures.png)
 
 **Program:**
 `ArrayExamples.java`
