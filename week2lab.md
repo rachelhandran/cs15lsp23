@@ -1,4 +1,4 @@
-# CSE Lab Report 2
+# CSE 15L Lab Report 2
 ## Part 1: Servers
 - Today we'll learn how to set up a server on your local machine.
 - Below is a program that sets up a server on your machine, takes in requests using the path `/add-message` and query `?s=<your-msg>`. `your-msg` is added to the string with a newline and is sent as output to the server.
@@ -55,14 +55,13 @@ java NumberServer 4001
 - To add a message to the string, add to the path: `/add-message?s=<your-msg>`
 	- For example: `http://localhost:4001/add-message?s=hello` and
 	- `http://localhost:4001/add-message?s=hello` (Output below)
-
-![Image](img/StringServer1.png)
+	- ![Image](img/StringServer1.png)
 - Methods called: `handleRequest()`
 - Arguments: `handleRequest(localhost:4001)`
 - Fields: 
 	- `str = "hello\n"`
 	- `url = https://localhost:4001`
-![Image](img/StringServer2.png)
+	- ![Image](img/StringServer2.png)
 - Methods called: `handleRequest()`
 - Arguments: `handleRequest(localhost:4001)`
 - Fields:
@@ -105,7 +104,8 @@ public void testReversed2() {
 }
 ```
 **Ouput:**
-![Image](img/ArrayTestFailures.png)
+
+![Image](ArrayTestFailures.png)
 
 **Program:**
 `ArrayExamples.java`
