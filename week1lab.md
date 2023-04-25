@@ -1,4 +1,4 @@
-# CSE 15L Week 1 Lab Report
+# CSE 15L Lab Report 1
 Hello! Welcome to CSE 15L. In order to assist in our experience in CSE 12 and 15L, we will learn to use tools such as the terminal, `git` and version control, and IDEs. These tools and shortcuts will help optimize your programming experience throughout your academic and professional career.
 
 I'll walk through downloading an IDE, securely connecting to a remote server with `ssh`, and using some Unix-based commands in the `shell` scripting language. For reference, I use a Windows machine running the *Windows Subsystem for Linux (WSL)* and by distribution is *Ubuntu 20.04*. 
