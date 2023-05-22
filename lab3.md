@@ -103,7 +103,7 @@ grep --color[=WHEN] "string" filename
 where `WHEN` is `always`, `never`, or `auto`.
 
 ##### **Example 7**:
-	- If you want to toggle this off, use option `never`
+- If you want to toggle this off, use option `never`
 ```shell
 grep --color=never "systolic" rr74.txt
 ```
