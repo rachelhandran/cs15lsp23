@@ -1,6 +1,6 @@
 # CSE 15L Lab Report 4
 - Today, we're working on everything from the command line!
-- We'll follow these instructions from the lab write-up:
+- We'll follow these instructions (4-9) from the lab write-up:
 
 > 1.  **Setup** Delete any existing forks of the repository you have on your account
 > 2.  **Setup** Fork the repository
@@ -41,13 +41,13 @@ bash te <tab> <enter>
 - I used tab to autocomplete for finding `test.sh` since it was the only file beginning with the pattern `te`. 
 
 ## Step 7: Edit tests to succeed
-- Edit with vim ![vim](img/lab4vim.png)
+- Edit with vim: ![vim](img/lab4vim.png)
 ### Keystrokes:
 ```
 vi Li <tab> . <tab> <enter>
 /x1 <enter> <shift-N> e r 2 :wq
 ```
-- I used the shorthand for `vim` which is `vi` (see alias screenshot above) , and used tab automcomplete to find `ListeExamples.java`
+- I used the shorthand for `vim` which is `vi` (see alias screenshot above) , and used tab autocomplete to find `ListExamples.java`
 - I used `/x1` to search for the text i needed to replace, navigated with `<shift-N>`, skipped to the end of line with `e`, replaced with `r` and `2`, saved and exited with `:wq`.
 
 ## Step 8: Run the succeeding tests
@@ -60,7 +60,7 @@ bash t <tab> <enter>
 - I used the same keystrokes as above to re-run the tests.
 
 ## Step 9: git add, commit, and push
-- git add, commit, push ![git actions](img/lab4git.png)
+- git add, commit, push: ![git actions](img/lab4git.png)
 
 ### Keystrokes:
 ```
