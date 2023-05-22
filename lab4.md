@@ -12,7 +12,7 @@
 > 8.  Run the tests, demonstrating that they now succeed
 > 9.  Commit and push the resulting change to your Github account (you can pick any commit message!) 
 
-!(https://ucsd-cse15l-s23.github.io/week/week7/#generating-ssh-keys-for-ieng6)
+[Lab 4 Write-up](https://ucsd-cse15l-s23.github.io/week/week7/#generating-ssh-keys-for-ieng6)
 
 ## Step 4: ssh into ieng6
 - `ssh` into `ieng6` with alias: ![ieng6 alias](img/lab4ieng6alias.png)
